@@ -1,5 +1,7 @@
 # Schede: client records and session notes for a therapy practice
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23398831.svg)](https://doi.org/10.5281/zenodo.23398831)
+
 *Schedario dei clienti e delle sedute per uno studio di terapia*
 
 **db** · 2004–2022 · version 1.0  
@@ -40,9 +42,9 @@ The database is published **empty**: it has been rebuilt in a new file from the 
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23398831](https://doi.org/10.5281/zenodo.23398831).
 
-> Sbarbaro, Massimo. 2022. *Schede: client records and session notes for a therapy practice*. Software (db, 2004–2022), version 1.0. GitHub. https://github.com/massimosbarbaro/therapy-client-records-db.
+> Sbarbaro, Massimo. 2022. *Schede: client records and session notes for a therapy practice*. Software (db, 2004–2022), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23398831.
 
 ## License
 
