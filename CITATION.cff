@@ -10,9 +10,9 @@ authors:
     orcid: "https://orcid.org/0009-0006-8965-9013"
 license: MIT
 date-released: "2022-04-19"
-repository-code: "https://github.com/massimosbarbaro/therapy-client-records-access"
+repository-code: "https://github.com/massimosbarbaro/therapy-client-records-db"
 keywords:
-  - "Microsoft Access"
+  - "db"
   - "client records"
   - "therapy practice"
   - "appointments"

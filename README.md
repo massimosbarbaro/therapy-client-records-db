@@ -24,13 +24,13 @@ Tables `Persona` (clients) and `Analisi` (sessions).
 
 ## Technology
 
-Microsoft Access 2000–2003 format (.mdb), forms, reports and VBA module.
+db, 2000–2003 format (.mdb), forms, reports and VBA module.
 
 ## Repository contents
 
 | Path | Content |
 |---|---|
-| `database/` | The Access application, emptied of all data. |
+| `database/` | The database application, emptied of all data. |
 | `source/` | Plain-text export (UTF-8) of forms, reports, macros, VBA modules (`SaveAsText`) and of the SQL of every query. |
 | `docs/schema.md` | Tables and fields. |
 
@@ -42,7 +42,7 @@ The database is published **empty**: it has been rebuilt in a new file from the 
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*).
 
-> Sbarbaro, Massimo. 2022. *Schede: client records and session notes for a therapy practice*. Software (db, 2004–2022), version 1.0. GitHub. https://github.com/massimosbarbaro/therapy-client-records-access.
+> Sbarbaro, Massimo. 2022. *Schede: client records and session notes for a therapy practice*. Software (db, 2004–2022), version 1.0. GitHub. https://github.com/massimosbarbaro/therapy-client-records-db.
 
 ## License
 
