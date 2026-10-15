@@ -1,0 +1,527 @@
+Version =21
+VersionRequired =20
+Checksum =-1305715182
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =7
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11352
+    DatasheetFontHeight =10
+    ItemSuffix =44
+    Left =600
+    Top =330
+    Right =14850
+    Bottom =9270
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x557a8031b39ee240
+    End
+    GUID = Begin
+        0x21a23a211eafd8118f27525405f84653
+    End
+    RecordSource ="Persona"
+    Caption ="Persona"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xc0000000a8000000c0000000d002000000000000582c00002f2b000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="Cognome"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =793
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x28a23a211eafd8118f27525405f84653
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =57
+                    Top =57
+                    Width =1425
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta40"
+                    Caption ="Persona"
+                    GUID = Begin
+                        0x52a23a211eafd8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =623
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x22a23a211eafd8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =3718
+                    Top =56
+                    Width =3435
+                    Height =270
+                    FontSize =10
+                    Name ="Nome"
+                    ControlSource ="Nome"
+                    GUID = Begin
+                        0x30a23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =3118
+                            Top =56
+                            Width =600
+                            Height =300
+                            Name ="Nome_Etichetta"
+                            Caption ="Nome"
+                            GUID = Begin
+                                0x31a23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =8201
+                    Top =56
+                    Width =3090
+                    Height =270
+                    FontSize =10
+                    TabIndex =1
+                    Name ="Cognome"
+                    ControlSource ="Cognome"
+                    GUID = Begin
+                        0x2aa23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =7256
+                            Top =56
+                            Width =945
+                            Height =300
+                            Name ="Cognome_Etichetta"
+                            Caption ="Cognome"
+                            GUID = Begin
+                                0x2ba23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =270
+                    Top =56
+                    Width =471
+                    Height =285
+                    TabIndex =2
+                    Name ="Id"
+                    ControlSource ="Id"
+                    GUID = Begin
+                        0x2ca23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Top =56
+                            Width =270
+                            Height =300
+                            Name ="Id_Etichetta"
+                            Caption ="Id"
+                            GUID = Begin
+                                0x2da23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =907
+                    Top =56
+                    Width =1110
+                    Height =270
+                    TabIndex =3
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x2ea23a211eafd8118f27525405f84653
+                    End
+
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =11055
+            Name ="Corpo"
+            GUID = Begin
+                0x23a23a211eafd8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    OldBorderStyle =1
+                    Left =56
+                    Top =510
+                    Width =11220
+                    Height =3975
+                    FontSize =9
+                    Name ="Disturbi"
+                    ControlSource ="Disturbi"
+                    GUID = Begin
+                        0x44a23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =170
+                            Width =825
+                            Height =300
+                            Name ="Disturbi_Etichetta"
+                            Caption ="Disturbi"
+                            GUID = Begin
+                                0x45a23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =701
+                    Top =4762
+                    Width =2235
+                    Height =285
+                    FontSize =10
+                    TabIndex =1
+                    Name ="Totem"
+                    ControlSource ="Totem"
+                    GUID = Begin
+                        0x46a23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =4762
+                            Width =645
+                            Height =300
+                            Name ="Totem_Etichetta"
+                            Caption ="Totem"
+                            GUID = Begin
+                                0x47a23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    OldBorderStyle =1
+                    Left =56
+                    Top =5556
+                    Width =5430
+                    Height =3525
+                    FontSize =10
+                    TabIndex =2
+                    Name ="SchemaP"
+                    ControlSource ="SchemaP"
+                    GUID = Begin
+                        0x48a23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =60
+                            Top =5223
+                            Width =1560
+                            Height =300
+                            Name ="SchemaP_Etichetta"
+                            Caption ="Schema Paterno"
+                            GUID = Begin
+                                0x49a23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    OldBorderStyle =1
+                    Left =5846
+                    Top =5556
+                    Width =5430
+                    Height =3525
+                    FontSize =10
+                    TabIndex =3
+                    Name ="SchemaM"
+                    ControlSource ="SchemaM"
+                    GUID = Begin
+                        0x4aa23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =5839
+                            Top =5215
+                            Width =1635
+                            Height =300
+                            Name ="SchemaM_Etichetta"
+                            Caption ="Schema Materno"
+                            GUID = Begin
+                                0x4ba23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =4431
+                    Top =4762
+                    Width =2235
+                    Height =285
+                    FontSize =10
+                    TabIndex =4
+                    Name ="Colore"
+                    ControlSource ="Colore"
+                    GUID = Begin
+                        0x4ca23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =3741
+                            Top =4762
+                            Width =690
+                            Height =300
+                            Name ="Colore_Etichetta"
+                            Caption ="Colore"
+                            GUID = Begin
+                                0x4da23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    Left =8932
+                    Top =4762
+                    Width =2310
+                    Height =285
+                    FontSize =10
+                    TabIndex =5
+                    Name ="ParoleK"
+                    ControlSource ="ParoleK"
+                    GUID = Begin
+                        0x4ea23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =8107
+                            Top =4762
+                            Width =825
+                            Height =300
+                            Name ="ParoleK_Etichetta"
+                            Caption ="ParoleK"
+                            GUID = Begin
+                                0x4fa23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    Left =611
+                    Top =9581
+                    Width =10665
+                    Height =900
+                    FontSize =10
+                    TabIndex =6
+                    Name ="Note"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0x50a23a211eafd8118f27525405f84653
+                    End
+
+                    Begin
+                        Begin Label
+                            Top =9581
+                            Width =495
+                            Height =300
+                            Name ="Note_Etichetta"
+                            Caption ="Note"
+                            GUID = Begin
+                                0x51a23a211eafd8118f27525405f84653
+                            End
+                        End
+                    End
+                End
+                Begin Line
+                    Left =57
+                    Top =57
+                    Width =11295
+                    Name ="Linea43"
+                    GUID = Begin
+                        0x55a23a211eafd8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x24a23a211eafd8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =57
+                    Top =228
+                    Width =4421
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo41"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x53a23a211eafd8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =4592
+                    Top =228
+                    Width =4421
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo42"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x54a23a211eafd8118f27525405f84653
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x29a23a211eafd8118f27525405f84653
+            End
+        End
+    End
+End

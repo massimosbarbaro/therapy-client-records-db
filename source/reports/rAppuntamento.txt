@@ -1,0 +1,333 @@
+Version =21
+VersionRequired =20
+Checksum =-249540933
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =8
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9646
+    DatasheetFontHeight =10
+    ItemSuffix =12
+    Left =600
+    Top =720
+    Right =13830
+    Bottom =7785
+    DatasheetGridlinesColor =12632256
+    Filter ="([Ida]=2)"
+    RecSrcDt = Begin
+        0xf83a335d739fe240
+    End
+    GUID = Begin
+        0xc249ea2ad6b3d8118f27525405f84653
+    End
+    RecordSource ="Analisi"
+    Caption ="rAppuntamento"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x8905000089050000890500008905000000000000ae2500009d01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =737
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xc949ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =1927
+                    Top =56
+                    Width =2685
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta6"
+                    Caption ="Appuntamento"
+                    GUID = Begin
+                        0xd149ea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =414
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0xc349ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin Label
+                    TextAlign =2
+                    Left =623
+                    Top =57
+                    Width =1110
+                    Height =300
+                    Name ="Data_Etichetta"
+                    Caption ="Data"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xcc49ea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin Label
+                    Left =3061
+                    Top =57
+                    Width =4560
+                    Height =300
+                    Name ="AnalisiP_Etichetta"
+                    Caption ="Analisi proposta"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xd049ea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =57
+                    Top =357
+                    Width =9585
+                    Name ="Linea9"
+                    GUID = Begin
+                        0xd449ea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin Label
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =2211
+                    Top =56
+                    Width =495
+                    Height =300
+                    Name ="Etichetta11"
+                    Caption ="Ora:"
+                    GUID = Begin
+                        0xf949ea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =413
+            Name ="Corpo"
+            GUID = Begin
+                0xc449ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =2
+                    Left =623
+                    Top =57
+                    Width =1110
+                    Height =330
+                    FontSize =12
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0xcb49ea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    Left =113
+                    Top =56
+                    Width =366
+                    Height =225
+                    TabIndex =1
+                    Name ="IdA"
+                    ControlSource ="IdA"
+                    GUID = Begin
+                        0xcd49ea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    Left =3061
+                    Top =56
+                    Width =6585
+                    Height =270
+                    TabIndex =2
+                    Name ="AnalisiP"
+                    ControlSource ="AnalisiP"
+                    GUID = Begin
+                        0xcf49ea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =4
+                    TextAlign =2
+                    Left =1984
+                    Top =56
+                    Width =906
+                    Height =330
+                    FontSize =12
+                    TabIndex =3
+                    Name ="Ora"
+                    ControlSource ="Ora"
+                    Format ="Short Time"
+                    GUID = Begin
+                        0xf649ea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0xc549ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =57
+                    Top =228
+                    Width =4421
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo7"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xd249ea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =4592
+                    Top =228
+                    Width =5036
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo8"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xd349ea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =3
+                    Left =57
+                    Top =228
+                    Width =9571
+                    BorderColor =12632256
+                    Name ="Linea10"
+                    GUID = Begin
+                        0xd549ea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xca49ea2ad6b3d8118f27525405f84653
+            End
+        End
+    End
+End

@@ -1,0 +1,23 @@
+{
+  "title": "Schede: client records and session notes for a therapy practice (db, 2004–2022)",
+  "upload_type": "software",
+  "publication_date": "2022-04-19",
+  "description": "<p><em>Schedario dei clienti e delle sedute per uno studio di terapia</em></p><p>Schede is the client file of a therapy practice. Each client record holds personal and contact data, presenting complaints and the personal profile used by the therapist; each session records date and time, the analyses performed, symptoms, therapy and notes. The application prints the client sheet, the appointment list and the relations between clients.</p><p>Designed and programmed by Massimo Sbarbaro in 2004–2022 (db). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "client records",
+    "therapy practice",
+    "appointments",
+    "legacy software"
+  ],
+  "version": "1.0",
+  "language": "eng",
+  "notes": "Original development: 2004–2022."
+}

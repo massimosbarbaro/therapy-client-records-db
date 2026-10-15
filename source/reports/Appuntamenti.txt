@@ -1,0 +1,406 @@
+Version =21
+VersionRequired =20
+Checksum =-2028350546
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =8
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10314
+    DatasheetFontHeight =10
+    ItemSuffix =32
+    Left =600
+    Top =330
+    Right =14490
+    Bottom =8340
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7a1c4134749fe240
+    End
+    GUID = Begin
+        0x024aea2ad6b3d8118f27525405f84653
+    End
+    RecordSource ="qLegameData"
+    Caption ="Appuntamenti"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x89050000890500008905000089050000000000004a2800008c01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupOn =5
+            ControlSource ="DataA"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupOn =5
+            ControlSource ="Ora"
+        End
+        Begin BreakLevel
+            ControlSource ="Cognome"
+        End
+        Begin BreakLevel
+            ControlSource ="DataA"
+        End
+        Begin BreakLevel
+            ControlSource ="Ora"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x094aea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =57
+                    Top =57
+                    Width =2430
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta16"
+                    Caption ="Appuntamenti"
+                    GUID = Begin
+                        0x1d4aea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =57
+                    Width =9070
+                    BorderColor =12632256
+                    Name ="Linea19"
+                    GUID = Begin
+                        0x204aea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =113
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x034aea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Width =9070
+                    Name ="Linea20"
+                    GUID = Begin
+                        0x214aea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =509
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0x0b4aea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    Left =1303
+                    Top =113
+                    Width =3975
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BackColor =12632256
+                    Name ="DataA In base a Settimana"
+                    ControlSource ="=Format$([DataA],\"ww\",0,0)"
+                    FontName ="Times New Roman"
+                    EventProcPrefix ="DataA_In_base_a_Settimana"
+                    GUID = Begin
+                        0x0d4aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin Label
+                    Left =225
+                    Top =113
+                    Width =1050
+                    Height =300
+                    FontSize =12
+                    Name ="Etichetta29"
+                    Caption ="Settimana "
+                    GUID = Begin
+                        0x2f4aea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =509
+                    Width =9070
+                    Name ="Linea27"
+                    GUID = Begin
+                        0x2d4aea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Width =9070
+                    Name ="Linea31"
+                    GUID = Begin
+                        0x324aea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =113
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x0c4aea2ad6b3d8118f27525405f84653
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =396
+            Name ="Corpo"
+            GUID = Begin
+                0x044aea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    Left =2154
+                    Width =1368
+                    Height =270
+                    Name ="Cognome"
+                    ControlSource ="Cognome"
+                    GUID = Begin
+                        0x114aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    Left =3571
+                    Width =1458
+                    Height =270
+                    TabIndex =1
+                    Name ="Nome"
+                    ControlSource ="Nome"
+                    GUID = Begin
+                        0x134aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    Left =6066
+                    Width =4248
+                    Height =270
+                    TabIndex =2
+                    Name ="AnalisiP"
+                    ControlSource ="AnalisiP"
+                    GUID = Begin
+                        0x194aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    Left =1020
+                    Width =786
+                    Height =315
+                    FontSize =11
+                    TabIndex =3
+                    ForeColor =8388608
+                    Name ="Ora In base a Giorno"
+                    ControlSource ="=[Ora]"
+                    Format ="Short Time"
+                    FontName ="Times New Roman"
+                    EventProcPrefix ="Ora_In_base_a_Giorno"
+                    GUID = Begin
+                        0x0f4aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    Width =966
+                    Height =330
+                    FontSize =12
+                    TabIndex =4
+                    Name ="Testo25"
+                    ControlSource ="DataA"
+                    GUID = Begin
+                        0x294aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin Line
+                    Top =396
+                    Width =9070
+                    Name ="Linea28"
+                    GUID = Begin
+                        0x2e4aea2ad6b3d8118f27525405f84653
+                    End
+                End
+                Begin TextBox
+                    Left =5045
+                    Width =966
+                    TabIndex =5
+                    Name ="NTel"
+                    ControlSource ="NTel"
+                    GUID = Begin
+                        0x304aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x054aea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =57
+                    Top =228
+                    Width =4421
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo17"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1e4aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =4592
+                    Top =228
+                    Width =4421
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo18"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1f4aea2ad6b3d8118f27525405f84653
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x0a4aea2ad6b3d8118f27525405f84653
+            End
+        End
+    End
+End

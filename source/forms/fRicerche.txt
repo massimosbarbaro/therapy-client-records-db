@@ -1,0 +1,223 @@
+Version =21
+VersionRequired =20
+Checksum =197499386
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =8
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =3968
+    DatasheetFontHeight =10
+    ItemSuffix =4
+    Left =5430
+    Top =135
+    Right =12870
+    Bottom =5685
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xeea3de14739fe240
+    End
+    GUID = Begin
+        0xc548ea2ad6b3d8118f27525405f84653
+    End
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =566
+            BackColor =9868950
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x5e49ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =1190
+                    Top =56
+                    Width =1425
+                    Height =480
+                    FontSize =18
+                    Name ="Etichetta3"
+                    Caption ="Ricerche"
+                    GUID = Begin
+                        0x6149ea2ad6b3d8118f27525405f84653
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1360
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0xc648ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =453
+                    Top =453
+                    Width =915
+                    Height =405
+                    Name ="cmdCognome"
+                    Caption ="Cognome"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xd148ea2ad6b3d8118f27525405f84653
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2494
+                    Top =453
+                    Width =915
+                    Height =405
+                    TabIndex =1
+                    Name ="cmdKey"
+                    Caption ="Chiave"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x5d49ea2ad6b3d8118f27525405f84653
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin FormFooter
+            Height =737
+            BackColor =9868950
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x5f49ea2ad6b3d8118f27525405f84653
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3174
+                    Top =56
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando2"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x6049ea2ad6b3d8118f27525405f84653
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdCognome_Click()
+On Error GoTo Err_cmdCognome_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fPersonaCognome"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdCognome_Click:
+    Exit Sub
+
+Err_cmdCognome_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdCognome_Click
+    
+End Sub
+Private Sub cmdKey_Click()
+On Error GoTo Err_cmdKey_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fPersoneKey"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdKey_Click:
+    Exit Sub
+
+Err_cmdKey_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdKey_Click
+    
+End Sub
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub

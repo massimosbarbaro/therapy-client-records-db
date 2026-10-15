@@ -1,0 +1,3 @@
+SELECT Persona.Id, Persona.Data, Persona.Nome, Persona.Cognome, Persona.DataN, Persona.Luogo, Persona.Stato, Persona.Indirizzo, Persona.Citta, Persona.StatoI, Persona.NTel, Persona.Cell, Persona.Mail, Persona.Disturbi, Persona.Totem, Persona.SchemaP, Persona.SchemaM, Persona.Colore, Persona.ParoleK, Persona.Note, Analisi.IdA, Analisi.Data AS DataA, Analisi.AnalisiP, Analisi.AnalisiE, Analisi.Sintomo, Analisi.Terapia, Analisi.Note AS NoteA, Analisi.Ora
+FROM Persona INNER JOIN Analisi ON Persona.Id = Analisi.Id
+WHERE (((Analisi.Data) Between [Inserire la data di partenza] And [Inserire la data finale]));

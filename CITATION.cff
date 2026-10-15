@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you refer to this software, please cite it as below."
+type: software
+title: "Schede: client records and session notes for a therapy practice (db, 2004–2022)"
+version: "1.0"
+abstract: "Schede is the client file of a therapy practice. Each client record holds personal and contact data, presenting complaints and the personal profile used by the therapist; each session records date and time, the analyses performed, symptoms, therapy and notes. The application prints the client sheet, the appointment list and the relations between clients."
+authors:
+  - family-names: Sbarbaro
+    given-names: Massimo
+    orcid: "https://orcid.org/0009-0006-8965-9013"
+license: MIT
+date-released: "2022-04-19"
+repository-code: "https://github.com/massimosbarbaro/therapy-client-records-access"
+keywords:
+  - "Microsoft Access"
+  - "client records"
+  - "therapy practice"
+  - "appointments"
+  - "legacy software"
